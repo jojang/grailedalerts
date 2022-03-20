@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "ProximaNova-Semibold";
+    src: url("./fonts/ProximaNova-Semibold.woff");
+}
+body{
+    text-align:center;
+    background-image: url("./pages/background.jpg");
+}
+input[type="text"] {
+    margin-bottom: 10px;
+    width: 46%;
+    height: 30px;
+    font-family: "ProximaNova-Semibold";
+    letter-spacing: 2px;
+}       
+.title {
+    font-family: "ProximaNova-Semibold";
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+}
+.subtitle{
+    font-family: "ProximaNova-Semibold";
+    font-size: 9.5px;
+    margin-right: -185px;
+    margin-top: -40px;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    margin-bottom: 35px;
+}
+.description {
+    font-family: "ProximaNova-Semibold";
+    text-align: center;
+    font-size: 5.7px;
+    margin-top:-10px;
+    margin-bottom: 190px;
+    margin-left: 5px;
+    letter-spacing: 3.5px;
+}
+.url{
+    margin-bottom: 3px;
+}
+
+button.state-save {
+    font-size: 20px;
+    font-family: "ProximaNova-Semibold";
+    background: #000000;
+    color: #fff;
+    width: 47%;
+    padding: 10px 5px 10px 5px;
+    text-transform: lowercase;
+    border-radius: 7px;
+    border: 2px solid #ffffff;
+    letter-spacing: 5px;
+}
+button.state-save:active {
+    background: #1e3955;
+}
+button.state-save:focus {
+    box-shadow: 0 0 0 2px #5683aa;
+}
+button.state-save:hover {
+    background: #4a4f52;
+}
